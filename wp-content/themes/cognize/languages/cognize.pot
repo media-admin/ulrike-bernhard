@@ -1,0 +1,741 @@
+# Copyright (C) 2015 mudThemes
+# This file is distributed under the GNU General Public License, v2 (or newer).
+msgid ""
+msgstr ""
+"Project-Id-Version: Cognize 1.0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/cognize\n"
+"POT-Creation-Date: 2015-04-09 10:27:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: archive.php:18
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:20
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:20
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:22
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:22
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:28
+msgid "<p>Archive of posts published in the specified %s </p>"
+msgstr ""
+
+#: author.php:17
+msgid "Author Archives: %s"
+msgstr ""
+
+#: category.php:17
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments"
+msgstr ""
+
+#: comments.php:21
+msgid "Comments"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33
+msgid "Older Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Newer Comments"
+msgstr ""
+
+#: comments.php:41
+msgid "Sorry, Comments are closed."
+msgstr ""
+
+#: footer.php:15
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:15
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:15
+msgid "Cognize theme by"
+msgstr ""
+
+#: functions.php:138 functions.php:140
+msgid "Footerbox Sidebar #1"
+msgstr ""
+
+#: functions.php:149 functions.php:151
+msgid "Footerbox Sidebar #2"
+msgstr ""
+
+#: functions.php:160 functions.php:162
+msgid "Footerbox Sidebar #3"
+msgstr ""
+
+#: functions.php:263
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:485
+msgid "Ooops! Nothing Found"
+msgstr ""
+
+#: functions.php:487 functions.php:489
+msgid "Nothing found for: %s"
+msgstr ""
+
+#: functions.php:496
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: functions.php:513
+msgid "Day"
+msgstr ""
+
+#: functions.php:515
+msgid "Month"
+msgstr ""
+
+#: functions.php:517
+msgid "Year"
+msgstr ""
+
+#: functions.php:519
+msgid "Period"
+msgstr ""
+
+#: functions.php:542
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr ""
+
+#: functions.php:543
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:559
+msgctxt "Previous post link"
+msgid "&rarr;"
+msgstr ""
+
+#: functions.php:560
+msgctxt "Next post link"
+msgid "&larr;"
+msgstr ""
+
+#: functions.php:610
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:622
+msgid "%s <span class=\"says\"></span>"
+msgstr ""
+
+#: functions.php:629
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:631 functions.php:645
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:645
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:662
+msgid "Read more"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:17
+msgid "Hi there!  I'm just a little extension, don't mind me."
+msgstr ""
+
+#: includes/options-framework/options-framework.php:164
+msgid "Cognize Theme - Settings"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:164
+#: includes/options-framework/options-framework.php:369
+msgid "Theme Options"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:271
+msgid "<i class=\"mdf mdf-undo\"></i> Options reset"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:318
+msgid "<i class=\"mdf mdf-check\"></i> Options saved"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:420
+msgid "Documentation"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:421
+msgid "Support"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:422
+msgid "Contact us"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:426 loop.php:21
+msgid "by"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:426
+msgid "Premium WordPress Themes"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:431
+msgid "Upgrade to Cognize Pro."
+msgstr ""
+
+#: includes/options-framework/options-framework.php:431
+msgid ""
+"and get Colorful skins with 500+ Google Fonts, Full-width Layout, Multiple "
+"slides and much more."
+msgstr ""
+
+#: includes/options-framework/options-framework.php:432
+msgid "Download Cognize Pro"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:454
+msgid "Scroll Down"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:461
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:466
+msgid "Save Options"
+msgstr ""
+
+#: includes/options-framework/options-framework.php:467
+msgid "Restore Defaults"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:431
+msgid "Menu Styler is only available in Cognize Pro Version"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:431
+msgid "Upgrade now"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:431
+msgid "to get more menu styling options"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:437
+msgid "Get access to 500+ Google Fonts"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:437
+#: includes/options-framework/options-interface.php:449
+#: includes/options-framework/options-interface.php:455
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:437
+#: includes/options-framework/options-interface.php:449
+#: includes/options-framework/options-interface.php:455
+msgid "to Cognize Pro version"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:443
+msgid "Now get more Coloring ability with"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:443
+msgid "Cognize Pro version"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:449
+msgid "Use upto 10 different slides in a slideshow"
+msgstr ""
+
+#: includes/options-framework/options-interface.php:455
+msgid "For more Social Profiles"
+msgstr ""
+
+#: includes/options-framework/options-medialibrary-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: includes/options-framework/options-medialibrary-uploader.php:66
+#: includes/options-framework/options-medialibrary-uploader.php:120
+msgid "Upload"
+msgstr ""
+
+#: includes/options-framework/options-medialibrary-uploader.php:68
+#: includes/options-framework/options-medialibrary-uploader.php:81
+#: includes/options-framework/options-medialibrary-uploader.php:121
+msgid "Remove"
+msgstr ""
+
+#: includes/options-framework/options-medialibrary-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: includes/options-framework/options-medialibrary-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:235
+msgid "repeat"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:236
+msgid "No Repeat"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:237
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:238
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:239
+msgid "Repeat All"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:252
+msgid "top left"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:253
+msgid "Top Left"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:254
+msgid "Top Center"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:255
+msgid "Top Right"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:256
+msgid "Middle Left"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:257
+msgid "Middle Center"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:258
+msgid "Middle Right"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:259
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:260
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:261
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:274
+msgid "fixed"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:275
+msgid "Scroll Normally"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:276
+msgid "Fixed in Place"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:350
+msgid "Normal"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:351
+msgid "Italic"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:352
+msgid "Bold"
+msgstr ""
+
+#: includes/options-framework/options-sanitize.php:353
+msgid "Bold Italic"
+msgstr ""
+
+#: loop.php:20
+msgid "Written on"
+msgstr ""
+
+#: loop.php:31 page.php:25 single.php:38
+msgid "Pages:"
+msgstr ""
+
+#: options.php:43
+msgid "Basic Settings"
+msgstr ""
+
+#: options.php:47
+msgid "Select Skin"
+msgstr ""
+
+#: options.php:53
+msgid "Classic White"
+msgstr ""
+
+#: options.php:57
+msgid "Logo Image:"
+msgstr ""
+
+#: options.php:58
+msgid "The logo image will replace site title."
+msgstr ""
+
+#: options.php:64
+msgid "Company Name:"
+msgstr ""
+
+#: options.php:65
+msgid "This will be shown in the Theme's footer."
+msgstr ""
+
+#: options.php:71
+msgid "Hide Site Description:"
+msgstr ""
+
+#: options.php:72
+msgid "Checking this will hide site description from the header."
+msgstr ""
+
+#: options.php:78
+msgid "Hide Menu:"
+msgstr ""
+
+#: options.php:79
+msgid "Checking this will hide Primary Menu."
+msgstr ""
+
+#: options.php:85
+msgid "Show Copyright:"
+msgstr ""
+
+#: options.php:86
+msgid ""
+"Check this setting to show the Copyright information in the Theme's footer"
+msgstr ""
+
+#: options.php:94
+msgid "Featured Section"
+msgstr ""
+
+#: options.php:98
+msgid "Hide Featured Section:"
+msgstr ""
+
+#: options.php:99
+msgid "Checking this will hide Featured Section."
+msgstr ""
+
+#: options.php:105
+msgid "Hide Icons:"
+msgstr ""
+
+#: options.php:106
+msgid "Checking this will hide icons from the buttons."
+msgstr ""
+
+#: options.php:112
+msgid "Featured Image:"
+msgstr ""
+
+#: options.php:119
+msgid "Featured Heading:"
+msgstr ""
+
+#: options.php:120
+msgid "Enter featured heading text"
+msgstr ""
+
+#: options.php:126
+msgid "Featured Content:"
+msgstr ""
+
+#: options.php:127
+msgid "Enter featured content text"
+msgstr ""
+
+#: options.php:133
+msgid "CTA Button #1"
+msgstr ""
+
+#: options.php:134
+msgid "Enter the tittle of first CTA Button"
+msgstr ""
+
+#: options.php:140
+msgid "CTA Button #1 (URL)"
+msgstr ""
+
+#: options.php:141
+msgid "Enter the URL of first CTA Button"
+msgstr ""
+
+#: options.php:147
+msgid "CTA Button #1 Icon:"
+msgstr ""
+
+#: options.php:148
+msgid "Select the icon of first CTA Button."
+msgstr ""
+
+#: options.php:155
+msgid "CTA Button #2"
+msgstr ""
+
+#: options.php:156
+msgid "Enter the tittle of second CTA Button"
+msgstr ""
+
+#: options.php:162
+msgid "CTA Button #2 (URL)"
+msgstr ""
+
+#: options.php:163
+msgid "Enter the URL of second CTA Button"
+msgstr ""
+
+#: options.php:169
+msgid "CTA Button #2 Icon:"
+msgstr ""
+
+#: options.php:170
+msgid "Select the icon of Second CTA Button."
+msgstr ""
+
+#: options.php:179
+msgid "3 Content Boxes"
+msgstr ""
+
+#: options.php:183
+msgid "Hide Content Boxes:"
+msgstr ""
+
+#: options.php:184
+msgid ""
+"Checking this will hide the '3 content boxes' throughout the website. (This "
+"is a global setting and will override others)"
+msgstr ""
+
+#: options.php:190
+msgid "Content Box #1 (Title):"
+msgstr ""
+
+#: options.php:191
+msgid "This will be the title of the 1st content box."
+msgstr ""
+
+#: options.php:197
+msgid "Content Box #1 (Content):"
+msgstr ""
+
+#: options.php:198
+msgid "This will be the content of the 1st content box."
+msgstr ""
+
+#: options.php:204
+msgid "Content Box #1 (Icon):"
+msgstr ""
+
+#: options.php:205
+msgid "This will be the icon of the 1st content box."
+msgstr ""
+
+#: options.php:212
+msgid "Content Box #2 (Title):"
+msgstr ""
+
+#: options.php:213
+msgid "This will be the title of the 2nd content box."
+msgstr ""
+
+#: options.php:219
+msgid "Content Box #2 (Content):"
+msgstr ""
+
+#: options.php:220
+msgid "This will be the Content of the 2nd content box."
+msgstr ""
+
+#: options.php:226
+msgid "Content Box #2 (Icon):"
+msgstr ""
+
+#: options.php:227
+msgid "This will be the icon of the 2nd content box."
+msgstr ""
+
+#: options.php:234
+msgid "Content Box #3 (Title):"
+msgstr ""
+
+#: options.php:235
+msgid "This will be the title of the 3rd content box."
+msgstr ""
+
+#: options.php:241
+msgid "Content Box #3 (Content):"
+msgstr ""
+
+#: options.php:242
+msgid "This will be the content of the 3rd content box."
+msgstr ""
+
+#: options.php:248
+msgid "Content Box #3 (Icon):"
+msgstr ""
+
+#: options.php:249
+msgid "This will be the icon of the 3rd content box."
+msgstr ""
+
+#: options.php:260
+msgid "Social Options"
+msgstr ""
+
+#: options.php:264
+msgid "Hide Social Section:"
+msgstr ""
+
+#: options.php:265
+msgid "Checking this will hide Social Section."
+msgstr ""
+
+#: options.php:271
+msgid "Facebook Profile:"
+msgstr ""
+
+#: options.php:272 options.php:279 options.php:286
+msgid "Include http:// or https:// with the URL."
+msgstr ""
+
+#: options.php:278
+msgid "Twitter Profile:"
+msgstr ""
+
+#: options.php:285
+msgid "RSS Feed:"
+msgstr ""
+
+#: options.php:299
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:307
+msgid "Custom CSS Styles:"
+msgstr ""
+
+#: options.php:308
+msgid ""
+"<strong>Important:</strong> Use this section only if you are well versed "
+"with CSS styling. Any bad input here can ruin the entire look of your theme. "
+"You can put your custom CSS styles here. It is recommended that you use this "
+"section rather than editing <i>style.css</i> directly."
+msgstr ""
+
+#: page.php:29 single.php:42
+msgid "Edit"
+msgstr ""
+
+#: search.php:17
+msgid " Search Result for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:12
+msgid "Go"
+msgstr ""
+
+#: single.php:25
+msgid ""
+"<span class=\"meta-date-url\">Posted on</span> %1$s<span class=\"meta-author-"
+"url\">, By %2$s </span>"
+msgstr ""
+
+#: single.php:31
+msgid "View all posts by %s"
+msgstr ""
+
+#: single.php:43
+msgid "Tags: "
+msgstr ""
+
+#: tag.php:17
+msgid "Tag Archives: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Cognize"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.mudthemes.com/showcase/cognize-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Cognize is a beautiful responsive theme that attracts the attention of "
+"visitors with its crystal clear typography and wide layout. It is great for "
+"corporate or landing page/sales page sites with 2 call to action (CTA) "
+"buttons on its homepage. With a single menu, 3 widget areas and Theme "
+"Options, Cognize remains simple, elegant and extremely usable. It also "
+"allows to modify or use new icons via Font Awesome and also has a social "
+"section where you can show your social networking profiles. Cognize is "
+"Translation ready and comes with 100% GPL license and online documentation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mudThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mudthemes.com"
+msgstr ""

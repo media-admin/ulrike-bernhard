@@ -6,6 +6,7 @@ README.md
 license.txt
 liesmich.html
 readme.html
+robots.txt
 /*.php
 !wp-content/
 

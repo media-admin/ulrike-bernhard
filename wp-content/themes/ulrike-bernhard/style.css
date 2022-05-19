@@ -1,0 +1,704 @@
+/*
+Theme Name:     Ulrike Bernhard Child Theme
+Theme URI:      http://ulrike-bernhard.media-lab.agency/
+Description:    Child Theme für Ulrike Bernhard
+Author:         Media Lab Tritremmel GmbH
+Author URI:     http://www.media-lab.at/
+Template:       cognize
+Version:        1.0
+Text Domain:  	ulrike-bernhard
+*/
+
+@import url("../cognize/style.css");
+
+
+/* COLORS
+
+	Dark Grey = #707173
+	Middle Grey = #b1b2b4
+	Light Grey = #f8f8f8
+
+*/
+
+
+
+/* GERNERAL */
+
+
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif !important;
+	font-size: 12px !important;
+	line-height: 1.1em !important;
+}
+
+
+div.header-bg-section,
+div.footer-bg-section {
+	background-color: #f8f8f8 !important;
+}
+
+
+div#logo-section {
+	padding-top: 1em !important;
+	margin-left: 0em !important;
+}
+
+
+div#nav-section {
+	padding-top: 0.5em !important;
+}
+
+
+.post-title h1 {
+	margin-top: -80px !important;
+	text-indent: -99999px !important;
+}
+
+
+h2 {
+	line-height: 1.2em !important;
+	margin-bottom: 0px !important;
+}
+
+
+
+h2[class^="adsimple-"] {
+	line-height: 1.2em !important;
+	padding-bottom: 0px !important;
+}
+
+
+
+h4 {
+	font-size: 1.4em !important;
+	color: #b1b2b4 !important;
+	margin-top: 0.2em !important;
+	margin-bottom: 0.5em !important;
+	padding-top: 0em !important;
+	padding-bottom: 0em !important;
+	clear: initial !important;
+}
+
+
+.post-template .post-content {
+	padding-top: 0px !important;
+}
+
+
+.main-section p {
+	color: #707173 !important;
+	font-size: 1.0em !important;
+	line-height: 1.4em !important;
+	margin-top: 5px !important;
+}
+
+
+.main-section img {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+
+.main-section img.alignleft {
+	float: left !important;
+}
+
+
+
+.post-content table {
+	border: 0px solid black !important;
+	clear: all !important;
+	margin-bottom: 2em !important;
+}
+
+
+
+.post-template .post-content table td {
+	padding: 0.4em 0.8em !important;
+}
+
+
+.post-template .post-content table td.year {
+	padding: 0.7em !important;
+	vertical-align: top !important;
+}
+
+
+.post-template .post-content table td.data {
+	padding: 0.7em !important;
+}
+
+
+.post-template .post-content table tr {
+	padding: 0.4em !important;
+}
+
+
+
+/* META-DATEN AUSBLENDEN */
+div.post-meta {
+	display: none !important;
+}
+
+
+
+/* KOMMENTARE AUSBLENDEN */
+.comments-section .comment-respond {
+	display: none !important;
+}
+
+
+.nocomments {
+	display: none !important;
+}
+
+
+div.post-below-content {
+	display: none !important;
+}
+
+
+
+
+/* LINKS */
+
+.white.post-template .post-content a:link, .white.post-template .comment-body a:link {
+	color: #707173 !important;
+	font-weight: 600 !important;
+	text-decoration: none !important;
+}
+
+
+
+.white.post-template .post-content a:visited, .white.post-template .comment-body a:visited {
+	color: #707173 !important;
+	font-weight: 500 !important;
+	text-decoration: underline !important;
+}
+
+
+
+/* MENU */
+
+.primarymenu-section li.current-menu-item,
+.primarymenu-section li.current-menu-ancestor {
+	background-color: none !important;
+	color: #707173 !important;
+}
+
+
+
+/* COLUMNS */
+
+.one_half {
+    width: 46% !important;
+    padding-right: 30px !important;
+}
+
+
+div.content-column.one_half.last_column {
+	padding-top: 0px !important;
+	padding-left: 2% !important;
+}
+
+
+/* IMAGES */
+
+.one_half img,
+.one_half .last_column img {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 2em !important;
+}
+
+
+img.no-padding-top {
+    padding-top: 0em !important;
+}
+
+
+
+/* STARTSEITE */
+
+
+div#home-text {
+	margin-top: -190px !important;
+	margin-left: 1.2em !important;
+	padding-top: -190px !important;
+	padding-left: 1.2em !important;
+}
+
+
+
+div#home-text p {
+	font-family: 'Helvetica', 'Arial', sans-serif !important;
+	font-size: 1.8em !important;
+	font-weight: 200 !important;
+	font-weight: light !important;
+	line-height: 1.1em !important;
+	color: #ffffff !important;
+}
+
+
+
+.white.post-template .post-content a:link,
+.white.post-template .comment-body a:link {
+	font-family: 'Helvetica', 'Arial', sans-serif !important;
+	font-size: 1.1em !important;
+	font-weight: 200 !important;
+	font-weight: lighter !important;
+	line-height: 1.1em !important;
+	color: #707173 !important;
+}
+
+
+div#link-list {
+	margin-top: 2.5em !important;
+	padding-left: 3em !important;
+	margin-left: 2em !important;
+	border-left: 1px solid #707173 !important;
+}
+
+
+
+
+.white.post-template .post-nav a,
+.white.post-template .comment-navigation a {
+	color: #ffffff !important;
+	font-weight: 700 !important;
+	text-decoration: none !important;
+	padding: 0.5em !important;
+	background-color:#707173 !important;
+}
+
+
+
+/* WERKE */
+
+body.category-arbeiten-auf-papier p,
+body.category-malerei p,
+body.category-grafiken p {
+	text-align: center !important;
+	padding-top: 0.8em !important;
+}
+
+
+.post-template .post-nav {
+	text-align: center !important;
+}
+
+
+.post-template .post-nav .nav-previous,
+.post-template .post-nav .nav-next {
+	float: none !important;
+}
+
+
+.post-template .post-nav .nav-previous {
+	margin-left: 1em !important;
+}
+
+
+.post-template .post-nav .nav-next {
+	margin-right: 1em !important;
+}
+
+
+
+
+
+/* AKTUELLES */
+.grid-plus-container h1 {
+	text-indent: 0 !important;
+}
+
+
+.pt-cv-readmore {
+    color: #707173 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #707173 !important;
+    margin-top: 1.5em !important;
+}
+
+
+.category-aktuelles > div.post-nav {
+    display: none !important;
+}
+
+
+
+
+/* KONTAKTFORMULAR */
+div.wpcf7 {
+	margin-top: -2em !important;
+}
+
+
+.wpcf7-form input,
+.wpcf7-form textarea {
+	width: 90% !important;
+}
+
+
+.wpcf7-form input.wpcf7-submit {
+	width: 92% !important;
+}
+
+
+
+/* FOOTER */
+
+.footer-section {
+	font-size: 1.0em !important;
+}
+
+
+a.footer-impressum {
+	text-decoration: underline !important;
+}
+
+
+
+/* COOKIE HINWEIS */
+
+#cookie-notice {
+	background-color: #707173 !important;
+}
+
+
+span#cn-notice-text {
+	font-family: 'Helvetica', 'Arial', sans-serif !important;
+	color: #f8f8f8 !important;
+}
+
+
+.cn-button.bootstrap {
+	background-color: #000000 !important;
+	background-image: none !important;
+	border-radius: 0px !important;
+}
+
+
+
+/* RESPONSIVE DESIGNS */
+
+
+
+
+
+
+
+/* ======================================================================================================================
+=                                                          TABLETS                                                      =
+====================================================================================================================== */
+
+
+	/* =================================== iPad 3 & 4 - PORTRAIT =================================== */
+
+
+		@media only screen
+			and (min-width: 768px)
+			and (max-width: 1023px)
+			and (orientation: portrait)
+			and (-webkit-min-device-pixel-ratio: 2) {
+
+
+			/* GRIDS */
+			div.content-column.one_half.last_column {
+				width: 95% !important;
+			}
+
+
+			a.pt-cv-thumb-default {
+				position: relative !important;
+				width: 95% !important;
+			}
+
+
+			img.pt-cv-thumbnail {
+				position: relative !important;
+				width: 100% !important;
+			}
+
+
+
+
+
+			/* MENU */
+
+			#responsive-menu-container {
+				min-width: 100% !important;
+				max-width: 100% !important;
+				width: 100% !important;
+			}
+
+
+
+			#rmp-menu-wrap-1158 .rmp-menu-item-link {
+				height: inherit !important;
+				font-size: 1.2rem !important;
+				line-height: 1.8rem !important;
+			}
+
+
+			#rmp-menu-wrap-1158 .rmp-submenu-depth-1 .rmp-menu-item-link {
+				background-color: transparent !important;
+				padding-left: 65px !important;
+				border-bottom: none !important;
+			}
+
+
+
+
+
+
+
+			/* CONTENT */
+			div.post-content {
+				margin-top: -40px !important;
+			}
+
+
+
+			/* GRIDS */
+			div.content-column.one_half {
+				width: 95% !important;
+			}
+
+
+			div.content-column.one_half {
+				width: 95% !important;
+				display: block !important;
+			}
+
+
+			div.content-column.one_half.last_column {
+				padding-left: 0% !important;
+			}
+
+
+
+
+
+			.one_half img,
+			.one_half .last_column img {
+				position: relative !important;
+				width: 100% !important;
+				height: auto !important;
+				margin-right: 0px !important;
+				padding-top: 2em !important;
+				padding-right: 0px !important;
+
+			}
+
+
+
+
+
+
+
+
+			a.pt-cv-thumb-default {
+				position: relative !important;
+				width: 95% !important;
+			}
+
+
+			img.pt-cv-thumbnail {
+				position: relative !important;
+				width: 100% !important;
+			}
+
+
+
+
+
+
+
+
+		}
+
+
+
+
+/* =================================== iPhone 6, 6s, 7 & 8 - PORTRAIT =================================== */
+
+
+		@media only screen
+			and (min-width: 375px)
+			and (max-width: 767px)
+			and (orientation: portrait)
+			and (-webkit-device-pixel-ratio: 2) {
+
+
+
+
+
+
+
+			/* CONTENT */
+			div.post-content {
+				margin-top: -40px !important;
+			}
+
+
+
+			/* GRIDS */
+			div.content-column.one_half {
+				width: 95% !important;
+			}
+
+
+			div.content-column.one_half {
+				width: 95% !important;
+				display: block !important;
+			}
+
+
+			div.content-column.one_half.last_column {
+				padding-left: 0% !important;
+			}
+
+
+
+
+
+			.one_half img,
+			.one_half .last_column img {
+				position: relative !important;
+				width: 100% !important;
+				height: auto !important;
+				margin-right: 0px !important;
+				padding-top: 2em !important;
+				padding-right: 0px !important;
+
+			}
+
+
+
+
+
+
+
+
+			a.pt-cv-thumb-default {
+				position: relative !important;
+				width: 95% !important;
+			}
+
+
+			img.pt-cv-thumbnail {
+				position: relative !important;
+				width: 100% !important;
+			}
+
+
+
+		}
+
+
+
+
+
+/* =================================== TABLET AND SMALLER =================================== */
+
+	@media only screen
+		and (max-width: 1023px)
+		and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+	/* LOGO SECTION */
+	div#logo-section {
+		margin-left: 1em !important;
+		padding-top: 2em !important;
+	}
+
+
+
+
+	/* SITE TITLE */
+	.site-title a {
+		font-size: 30px !important;
+	}
+
+
+	/* RESPONSIVE MENU */
+		.primarymenu-resp {
+			display: none !important;
+  		}
+
+
+  		#responsive-menu-container {
+			min-width: 100% !important;
+			max-width: 100% !important;
+			width: 100% !important;
+		}
+
+
+		#responsive-menu-wrapper {
+			position: relative !important;
+			width: 100% !important;
+			text-align: center !important;
+		}
+
+
+		#responsive-menu {
+			position: relative !important;
+			width: 80% !important;
+			font-size: 2.0em !important;
+			margin: 50px auto !important;
+		}
+
+
+
+		#responsive-menu-container #responsive-menu li.responsive-menu-item .responsive-menu-item-link {
+			font-size: 1.8em !important;
+			line-height: 2.2em !important;
+			border-bottom: 1px solid #b1b2b4 !important;
+			padding: 0.5em auto !important;
+		}
+
+
+		#responsive-menu-container #responsive-menu li.responsive-menu-item a {
+			height: auto !important;
+		}
+
+
+		#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item .responsive-menu-item-link {
+			font-size: 1.3em !important;
+			line-height: 2.5em !important;
+			letter-spacing: 0.2em;;
+			text-align: center !important;
+			color: #b1b2b4 !important;
+			background-color: transparent !important;
+			border-bottom: 0px solid #b1b2b4 !important;
+			padding: 3.0em auto !important;
+		}
+
+
+		#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item .responsive-menu-item-link:last-child  {
+			border-bottom: 1px solid #b1b2b4 !important;
+		}
+
+
+		#responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow {
+			display: inline-block !important;
+			color: #b1b2b4 !important;
+			line-height: inherit !important;
+			right: auto !important;
+			background-color: transparent !important;
+			border-left: 0px solid transparent !important;
+			padding: 1.5em auto !important;
+		}
+
+
+		/* FOOTER SECTION */
+		#footer-section {
+			width: 80% !important;
+			font-size: 1.3em !important;
+			line-height: 1.5em !important;
+		}
+
+
+	}
