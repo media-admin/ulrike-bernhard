@@ -198,7 +198,6 @@ PT_CV_Functions::view_submit();
 												'desc'	 => apply_filters( PT_CV_PREFIX_ . 'setting_post_not_in', __( 'List of post IDs to exclude (comma-separated values, for example: 1,2,3)', 'content-views-query-and-display-post-page' ) ),
 											),
 										),
-										'dependence' => array( 'post__in', '' ),
 									),
 									apply_filters( PT_CV_PREFIX_ . 'exclude_extra_settings', array() ),
 									// Parent page

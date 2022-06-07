@@ -189,7 +189,10 @@
 				} );
 			} );
 
-			$( '.pt-wrap' ).trigger( 'finish-do-dependence' );
+			// @since WP 6.0: need timeout, otherwise it triggers before custom events registered by on('finish-do-dependence') in Pro admin.js were attached, so these events are not executed
+			setTimeout( function () {
+				$( '.pt-wrap' ).trigger( 'finish-do-dependence' );
+			}, 1000 );
 		},
 		/**
 		 * Toggle each dependency group

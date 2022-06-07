@@ -2,8 +2,8 @@
 Contributors: expresstech, responsivemenu, imvarunkmr, surajkumarsingh, infosatech
 Tags: responsive, mega menu, navigation, mobile, hamburger
 Requires at least: 3.6
-Tested up to: 5.9
-Stable tag: 4.1.10
+Tested up to: 6.0
+Stable tag: 4.1.11
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Highly customisable Responsive Menu plugin with 150+ options. No coding knowledge needed to design it exactly as you want.
 
 == Description ==
-**Description:**
+
+Try Demo ➡️ [Get a personal sandbox demo with Response Menu](https://instawp.io/plugins/responsive-menu)
 
 Highly customisable Responsive Menu Plugin for WordPress. With over 150 customisable options you get a combination of 22,500 options! No coding experience or knowledge is needed with an easy to use interface you can get it looking exactly as you want with minimal fuss.
 
@@ -118,6 +119,11 @@ To view our FAQ, please go to [https://responsive.menu/faq/](https://responsive.
 7. Main menu
 
 == Changelog ==
+
+= 4.1.11 (25th May 2022) =
+* Bug: Fixed conflict issues with Import Eventbrite Events plugin
+* Enhancement: Added rmp_nav_item_class hook to update nav item classes
+* Enhancement: Removed unused resources
 
 = 4.1.10 (30th Mar 2022) =
 * Bug: Fixed issue with submenu font-wieght
