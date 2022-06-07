@@ -1,7 +1,7 @@
 <?php
 /*
  * Header Section of Cognize Theme.
- * 
+ *
  * @package Cognize
  */
 ?>
@@ -30,7 +30,7 @@
 <body <?php body_class(); ?>>
     <div id="parent-wrapper" class="parent-wrapper grid-col-16">
         <div id="wrapper" class="wrapper grid-col-16">
-            
+
             <div class="header-bg-section clearfix">
                 <div id="header-section" class="header-section grid-col-16 clearfix">
                     <div id="logo-section" class="logo-section grid-col-5 grid-float-left clearfix"><?php cognize_logo() ?></div>
@@ -42,5 +42,5 @@
                     <?php endif; ?>
                 </div><!-- header section ends -->
             </div><!-- header bg section ends -->
-                        
+
             <div id="main-section" class="main-section grid-col-16 clearfix">

@@ -1,7 +1,7 @@
 <?php
 /**
  * Ulrike Bernhard Child Theme functions and definitions
- * 
+ *
  * @package Ulrike Bernhard Child Theme
  * @since 1.0
  */
@@ -10,37 +10,37 @@
 
 
 
-/* #INSERT CATEGORY IN BODY-TAG-CLASS */ 
+/* #INSERT CATEGORY IN BODY-TAG-CLASS */
 function categories_body_classes($classes) {
- 
- 
+
+
     if (is_single()) {
- 
+
         global $wp_query;
- 
+
         $pid = $wp_query->post->ID;
- 
+
         $cats = wp_get_post_categories( $pid );
- 
+
         foreach($cats as $cat) {
- 
+
             $c = get_category($cat);
- 
+
             $classes[] = 'category-'. $c->slug;
- 
+
         }
- 
+
     }
- 
+
     return $classes;
 }
- 
+
 add_filter('body_class', 'categories_body_classes');
 
 
 
 
-/* INSERT POST THUMB IN POST */ 
+/* INSERT POST THUMB IN POST */
 if ( ! function_exists( 'theme_slug_setup' ) ) :
     /**
      * Sets up theme and registers support for various WordPress features.
@@ -57,13 +57,13 @@ add_action( 'after_setup_theme', 'theme_slug_setup' );
 
 
 
-/* SET CUSTOM POST THUMBNAIL SIZE */ 
+/* SET CUSTOM POST THUMBNAIL SIZE */
 add_image_size( 'theme-slug-single-post', 650, 9999, false );
 
 
 
 
-/* DIFINE POST THUMB IN POST */ 
+/* DIFINE POST THUMB IN POST */
 if ( ! function_exists( 'theme_slug_setup' ) ) :
     /**
      * Sets up theme and registers support for various WordPress features.
@@ -89,7 +89,7 @@ add_action( 'after_setup_theme', 'theme_slug_setup' );
 
 /**
  * Displays the navigation links for the posts and pages.
- * 
+ *
  * @since 1.0
  */
 function edited_post_nav() {
@@ -98,12 +98,12 @@ function edited_post_nav() {
         <div class="nav-next"><?php next_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Next post link', 'cognize' ) . '</span> ', TRUE ) ?></div>
         <div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&rarr;', 'Previous post link', 'cognize' ) . '</span>', TRUE ) ?></div>
     </div>
-        
-    
+
+
     <?php
 
 
-	
+
 
 
 
@@ -129,8 +129,6 @@ function navigate_in_same_taxonomy_join() {
   global $wpdb;
   return " INNER JOIN $wpdb->term_relationships AS tr ON p.ID = tr.object_id INNER JOIN $wpdb->term_taxonomy tt ON tr.term_taxonomy_id = tt.term_taxonomy_id";
 }
-
-
 
 
 
@@ -161,9 +159,33 @@ function filter_next_and_prev_post_where( $original ) {
 }
 
 
-	
-	
-	
+
+
+
 }
 
+/* Styles and Scripts */
 
+function medialab_register_styles() {
+
+  // Import Cookie Script Stylesheets
+  wp_register_style( 'cookie-style', 'https://ulrike-bernhard.dev/wp-content/themes/ulrike-bernhard/assets/global/css/dywc.css' );
+  wp_enqueue_style( 'cookie-style' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'medialab_register_styles' );
+
+
+function medialab_register_scripts() {
+
+  // Import Cookie Notice Scripts
+  wp_register_script( 'dywc', 'https://ulrike-bernhard.dev/wp-content/themes/ulrike-bernhard/assets/global/js/dywc.js', '', null, true );
+  wp_enqueue_script( 'dywc' );
+
+  wp_register_script( 'cookie-notice', 'https://ulrike-bernhard.dev/wp-content/themes/ulrike-bernhard/assets/global/js/cookie-notice.js', '', null, true );
+  wp_enqueue_script( 'cookie-notice' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'medialab_register_scripts' );
