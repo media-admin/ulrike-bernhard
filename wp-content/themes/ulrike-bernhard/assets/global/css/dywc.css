@@ -16,7 +16,7 @@
   text-align: center;
   position: fixed;
   box-sizing: border-box;
-  color: #707070;
+  color: #555555;
   transition: all 0.25s;
   width: calc(100% - 60px);
   border: 2px solid #555555;
@@ -28,7 +28,7 @@
 
 #dywc > .content {
   padding: 15px;
-  background-color: rgb(177, 178, 180);
+  background-color: rgba(255, 255, 255, 0.9);
   opacity: 0.92;
   text-align: center;
   z-index: 1;
@@ -41,27 +41,30 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
+  padding-top: 1.0rem;
 }
 
 
 #dywc > .content p {
-  margin: 15px 0;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.9rem;;
+  line-height: 1.1rem;
   font-weight: normal;
-  padding: 0;
+  margin: 1.0rem 0.25rem;
+  padding: 0 0.20rem;
 }
 
 
 #dywc > .content P:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 
 #dywc > .content a {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
+  font-size: 0.9rem;;
+  line-height: 1.1rem;
+  font-weight: normal;
+  color: #555555 !important
 }
 
 
@@ -74,9 +77,9 @@
 #dywc > .content > div {
   background-color: rgb(177, 178, 180);
   padding: 15px 0px;
-  color: #000000;
   font-size: 14px;
   line-height: 16px;
+  color: #555555;
 }
 
 
@@ -138,10 +141,10 @@
 
 
 #dywc > .content > div .accept_wrap > a.accept {
-  color: #ffffff;
+  color: #ffffff !important;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   background-color: #555555;
   letter-spacing: 1px;
   padding: 8px 18px;
@@ -156,6 +159,8 @@
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1.0em;
   text-transform: uppercase;
+  color: #555555;
+  letter-spacing: 0.25px;
 }
 
 
@@ -339,16 +344,17 @@
 
 
 #dywc_info .reject {
-    color: #555555;
+    color: #555555 !important;
  }
 
 
  #dywc_info .imprint {
-     color: #555555;
+     font-size: 0.9rem;
+     color: #555555 !important;
   }
 
   #dywc_info .dsg {
-     color: #555555;
+     color: #555555 !important;
   }
 
 

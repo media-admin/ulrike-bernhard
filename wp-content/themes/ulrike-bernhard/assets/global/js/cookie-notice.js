@@ -61,7 +61,7 @@
 					dywc.log("Load Statistic Tracking");
 
 					var el = document.createElement('script');
-					el.src = 'https://www.googletagmanager.com/gtag/js?id=G-xxxxxx';
+					el.src = 'https://www.googletagmanager.com/gtag/js?id=G-Z6Z02MPJ2X';
 					el.async = 1;
 					document.getElementsByTagName('head')[0].appendChild(el);
 
@@ -70,24 +70,29 @@
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());
 
-					gtag('config', 'UA-62149649-1', { 'anonymize_ip': true });
-					// gtag('config', 'G-xxxxxx', { 'anonymize_ip': true });
+					gtag('config', 'UA-119974628-1', { 'anonymize_ip': true });
+					gtag('config', 'G-Z6Z02MPJ2X', { 'anonymize_ip': true });
 
 	 			},
 
 	 			reject: function() {
 
-	  			// Hier kommt der Opt-Out Code rein
-	  			// Folgendes Beispiel für Google Analytics
+	  			dywc.log("Reject Statistic Tracking");
 
-	  			var disableStr = 'ga-disable-UA-62149649-1';
+					 var el = document.createElement('script');
+					 el.src = 'https://www.googletagmanager.com/gtag/js?id=G-Z6Z02MPJ2X';
+					 el.async = 1;
+					 document.getElementsByTagName('head')[0].appendChild(el);
 
-	  			window[disableStr] = true; document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					 window['ga-disable-G-Z6Z02MPJ2X'] = true;
+					 window.dataLayer = window.dataLayer || [];
 
-	  			dywc.cookie.removeItem('_ga', '/', '.ulrike-bernhard.at');
-	  			dywc.cookie.removeItem('_gid', '/', '.ulrike-bernhard.at');
-	  			dywc.cookie.removeItem('_gat', '/', '.ulrike-bernhard.at');
-	  			dywc.cookie.removeItem('_gat_gtag_UA-62149649-1', '/', '.bauenwohnen.com');
+					 function gtag(){dataLayer.push(arguments);}
+					 gtag('js', new Date());
+
+					 gtag('config', 'UA-119974628-1');
+					 gtag('config', 'G-Z6Z02MPJ2X');
+
 				}
 			}
    ]
